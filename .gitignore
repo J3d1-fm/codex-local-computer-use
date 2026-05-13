@@ -1,0 +1,13 @@
+.DS_Store
+*.log
+*.tmp
+
+# Do not commit the proprietary OpenAI Computer Use bundle.
+*.app/
+Codex Computer Use.app/
+plugins/computer-use-local-wrapper/Codex Computer Use.app/
+plugins/computer-use-local-wrapper/assets/
+
+# Local Codex/generated state.
+plugin.lock.json
+.codex-cache/

@@ -1,0 +1,20 @@
+{
+  "name": "codex-local-computer-use",
+  "interface": {
+    "displayName": "Codex Local Computer Use"
+  },
+  "plugins": [
+    {
+      "name": "computer-use-local-wrapper",
+      "source": {
+        "source": "local",
+        "path": "./plugins/computer-use-local-wrapper"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

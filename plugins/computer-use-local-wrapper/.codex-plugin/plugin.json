@@ -1,0 +1,34 @@
+{
+  "name": "computer-use-local-wrapper",
+  "version": "0.1.0",
+  "description": "Local Codex marketplace wrapper for an already-installed Computer Use app bundle.",
+  "author": {
+    "name": "J3d1-fm",
+    "url": "https://github.com/J3d1-fm"
+  },
+  "homepage": "https://github.com/J3d1-fm/codex-local-computer-use",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "computer-use",
+    "local-marketplace",
+    "macos",
+    "mcp"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Computer Use Local Wrapper",
+    "shortDescription": "Use a locally installed Computer Use bundle",
+    "longDescription": "Local marketplace wrapper for machines that already have a licensed Codex Computer Use.app bundle installed. This wrapper does not include proprietary binaries.",
+    "developerName": "J3d1-fm",
+    "category": "Productivity",
+    "websiteURL": "https://github.com/J3d1-fm/codex-local-computer-use",
+    "defaultPrompt": [
+      "Use the locally installed Computer Use app through Codex",
+      "Open a macOS app and inspect its UI",
+      "Navigate a desktop workflow with Computer Use"
+    ],
+    "brandColor": "#0F172A",
+    "screenshots": []
+  }
+}
